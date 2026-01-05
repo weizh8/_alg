@@ -46,6 +46,3 @@
 
 ## 習題 12
 [習題 12](https://github.com/julianalidya/_alg/blob/main/HW%2012/cross-en.py)
-
-## 期中作業
-[期中](https://github.com/julianalidya/_alg/tree/main/Midterm)
