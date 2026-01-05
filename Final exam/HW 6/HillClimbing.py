@@ -12,7 +12,7 @@ def hill_climbing(start_x, step_size=0.1, iter=100):
         
         best_x = min([current_x, next_x_left, next_x_right], key=f)
         
-        if best_x == current_x: # Jika tidak ada yang lebih baik, berhenti
+        if best_x == current_x:
             break
         current_x = best_x
     return current_x
