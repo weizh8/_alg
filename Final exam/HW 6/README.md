@@ -16,15 +16,5 @@ This repository contains the implementation of various optimization algorithms t
 * **Gradient Descent**: This is more mathematically "aware" than Hill Climbing. By calculating the slope (gradient), the algorithm knows exactly which direction leads downwards, making it much more efficient for complex functions like Linear Regression.
 * **Improvement Method (Momentum)**: Standard Gradient Descent can be slow or zigzag. By adding momentum, the algorithm gains "inertia" from previous steps, helping it pass through small flat areas and reach the global minimum faster.
 
-## How to Run
-
-Ensure you have Python installed, then run each script:
-
-```bash
-python hill_climbing.py
-python greedy.py
-python gradient_descent.py
-python improved_method.py
 AI Conversation Reference AI Tool Used: Google Gemini
-
-Conversation URL: Gemini
+Conversation URL: [Gemini](https://gemini.google.com/share/8bdcbc9842bb)
