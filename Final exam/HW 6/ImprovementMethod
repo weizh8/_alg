@@ -1,0 +1,11 @@
+def gradient_descent_improved(start_x, learning_rate=0.1, momentum=0.9, iter=100):
+    current_x = start_x
+    velocity = 0
+    for _ in range(iter):
+        gradient = df(current_x)
+        
+        velocity = momentum * velocity - learning_rate * gradient
+        current_x += velocity
+    return current_x
+
+print(f"Improved GD Result: {gradient_descent_improved(10)}")
