@@ -24,9 +24,7 @@ Ensure you have Python installed, then run each script:
 python hill_climbing.py
 python greedy.py
 python gradient_descent.py
-python improved_method.py```
+python improved_method.py
+AI Conversation Reference AI Tool Used: Google Gemini
 
-AI Conversation Reference
-AI Tool Used: Google Gemini
-
-Conversation URL: [Gemini](https://gemini.google.com/share/9915361bdbbe)
+Conversation URL: Gemini
